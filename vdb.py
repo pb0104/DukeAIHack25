@@ -2,6 +2,7 @@ import json
 import uuid
 import faiss
 from sentence_transformers import SentenceTransformer
+import google.generativeai as genai
 
 # ------------------- Step 1: Prepare JSON chunks -------------------
 
@@ -66,7 +67,40 @@ def query_faiss(index, query_text, chunks, model_name="all-MiniLM-L6-v2", top_k=
         })
     return results
 
-# ------------------- Step 5: Test main function -------------------
+
+# ------------------- Step 4: make RAG make sense -------------------
+
+def make_rag_make_sense(query, retrieved_chunks, model_name="gemini-2.5-flash"):
+    system_prompt = """You are an expert assistant. Your task is to answer questions concisely 
+    based only on the provided context. Do not include explanations or unrelated text."""
+
+    context_text = "\n".join(f"- {chunk['text']}" for chunk in retrieved_chunks)
+
+    user_prompt = f"""
+    Context:
+    {context_text}
+
+    Question:
+    {query}
+
+    Provide a short answer based only on the context above.
+    """
+
+    # Initialize Gemini client
+    model = genai.GenerativeModel("gemini-2.5-flash")
+
+    # Generate response
+    response = model.generate_content(
+        contents=[system_prompt, user_prompt],
+        generation_config={"temperature": 0, "max_output_tokens": 200}
+    )
+
+    concise_answer = response.text.strip()
+
+    return concise_answer
+
+
+# ------------------- Step 6: Test main function -------------------
 
 def main():
     # Load a sample JSON (replace with your actual mindmap JSON)
@@ -88,9 +122,12 @@ def main():
     query = "Who initially introduces the topic of Cincinnati Tech Community and what is the sentiment?"
     results = query_faiss(index, query, chunks)
 
-    print("\nTop results for query:", query)
-    for r in results:
-        print(f"- [{r['metadata']['type']}] {r['text']} (distance={r['distance']:.4f})")
+    concise_result = make_rag_make_sense("Who initially introduces the topic of Cincinnati Tech Community and what is the sentiment?", results)
+    print(concise_result)
+
+    # print("\nTop results for query:", query)
+    # for r in results:
+    #     print(f"- [{r['metadata']['type']}] {r['text']} (distance={r['distance']:.4f})")
 
 if __name__ == "__main__":
     main()

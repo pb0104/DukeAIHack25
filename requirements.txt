@@ -1,3 +1,13 @@
 dotenv
 librosa
 assemblyai
+
+json
+datetime
+google.generativeai
+os
+faiss-cpu
+tqdm
+numpy
+transformers
+uuid
