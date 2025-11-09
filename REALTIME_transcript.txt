@@ -1,0 +1,18 @@
+[ Start Time:1.12 End Time:3.68 ]
+Speaker A: Yes. So what do we want to have for dinner?
+[ Start Time:5.12 End Time:7.12 ]
+Speaker B: Mac and cheese, burritos.
+[ Start Time:9.12 End Time:13.44 ]
+Speaker A: How do you like your burrito? Do you like beans and stuff or are you more health conscious?
+[ Start Time:13.68 End Time:16.56 ]
+Speaker B: I like beans with guacamole on the side.
+[ Start Time:17.84 End Time:20.52 ]
+Speaker A: That sounds interesting. Hot sauce. You like spicy food?
+[ Start Time:20.52 End Time:21.04 ]
+Speaker B: Yeah.
+[ Start Time:21.04 End Time:39.15 ]
+Speaker A: Damn. Okay, I didn't know that. What about you, Pranshal? I'll stick to save Paneer with garlic now and. Oh, that's crazy. That's crazy. Do you have like a favorite restaurant? Kebab and curry. Kebab and curry. Okay. Yeah, that sounds. That sounds awesome. Neha, when was.
+[ Start Time:39.15 End Time:40.27 ]
+Speaker B: The last time you went there?
+[ Start Time:41.07 End Time:45.39 ]
+Speaker A: I was about to go yesterday, but it got cancelled because of this AI hackathon.

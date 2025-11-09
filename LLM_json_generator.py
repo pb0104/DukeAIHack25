@@ -90,7 +90,7 @@ You must:
 
 
 def main():
-    transcript_path = "speaker.txt"
+    transcript_path = "REALTIME_transcript.txt"
 
     with open(transcript_path, "r", encoding="utf-8") as f:
         transcript_text = f.read()
