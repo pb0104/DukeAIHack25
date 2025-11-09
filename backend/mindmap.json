@@ -1,189 +1,140 @@
 {
-  "conversation_title": "NBA and OKC Draft Picks Discussion",
+  "conversation_title": "NBA Discussion: Favorite Teams, Draft Picks, and Player Performance",
   "participants": [
     {
-      "name": "Andre Cole"
+      "name": "Adil Gazder"
     },
     {
-      "name": "Adil Gazder"
+      "name": "Lewis Hamilton"
     }
   ],
   "main_topics": [
     {
-      "topic": "Favorite Sport",
-      "introduced_by": "Andre Cole",
+      "topic": "Favorite Sport & NBA Team",
+      "introduced_by": "Adil Gazder",
       "introduced_at": "00:00:01",
       "sentiment": "neutral",
       "subtopics": [
         {
-          "subtopic": "Basketball as Favorite Sport",
-          "introduced_by": "Adil Gazder",
+          "subtopic": "Lewis's Favorite Sport (Basketball)",
+          "introduced_by": "Lewis Hamilton",
           "introduced_at": "00:00:04",
-          "stance": "support",
-          "targeted_at": "Favorite Sport",
+          "stance": "neutral",
+          "targeted_at": "Favorite Sport & NBA Team",
           "discussed_by": [
-            "Adil Gazder"
-          ],
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    {
-      "topic": "NBA Fandom",
-      "introduced_by": "Andre Cole",
-      "introduced_at": "00:00:05",
-      "sentiment": "neutral",
-      "subtopics": [
-        {
-          "subtopic": "Following NBA",
-          "introduced_by": "Andre Cole",
-          "introduced_at": "00:00:05",
-          "stance": "question",
-          "targeted_at": "NBA Fandom",
-          "discussed_by": [
-            "Andre Cole",
-            "Adil Gazder"
+            "Adil Gazder",
+            "Lewis Hamilton"
           ],
           "sentiment": "neutral"
         },
         {
-          "subtopic": "OKC as Favorite Team",
-          "introduced_by": "Andre Cole",
-          "introduced_at": "00:00:08",
-          "stance": "question",
-          "targeted_at": "NBA Fandom",
+          "subtopic": "Lewis's Favorite NBA Team (OKC)",
+          "introduced_by": "Lewis Hamilton",
+          "introduced_at": "00:00:09",
+          "stance": "neutral",
+          "targeted_at": "Favorite Sport & NBA Team",
           "discussed_by": [
-            "Andre Cole",
-            "Adil Gazder"
+            "Adil Gazder",
+            "Lewis Hamilton"
           ],
           "sentiment": "neutral"
         }
       ]
     },
     {
-      "topic": "OKC Draft Picks",
-      "introduced_by": "Andre Cole",
+      "topic": "OKC's 2025 NBA Draft Picks",
+      "introduced_by": "Adil Gazder",
       "introduced_at": "00:00:10",
       "sentiment": "neutral",
       "subtopics": [
         {
-          "subtopic": "Quantity of Draft Picks (25)",
-          "introduced_by": "Andre Cole",
-          "introduced_at": "00:00:10",
-          "stance": "question",
-          "targeted_at": "OKC Draft Picks",
-          "discussed_by": [
-            "Andre Cole",
-            "Adil Gazder"
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Quality of Draft Picks (Second Rounders)",
-          "introduced_by": "Adil Gazder",
+          "subtopic": "Quality of OKC's 2025 Draft Picks",
+          "introduced_by": "Lewis Hamilton",
           "introduced_at": "00:00:14",
           "stance": "elaboration",
-          "targeted_at": "Quantity of Draft Picks (25)",
-          "discussed_by": [
-            "Adil Gazder"
-          ],
-          "sentiment": "neutral"
-        },
-        {
-          "subtopic": "Lack of Top Talent from Good Schools",
-          "introduced_by": "Adil Gazder",
-          "introduced_at": "00:00:25",
-          "stance": "elaboration",
-          "targeted_at": "Quality of Draft Picks (Second Rounders)",
+          "targeted_at": "OKC's 2025 NBA Draft Picks",
           "discussed_by": [
             "Adil Gazder",
-            "Andre Cole"
+            "Lewis Hamilton"
           ],
           "sentiment": "negative"
+        },
+        {
+          "subtopic": "Origin of Draft Picks (Good Basketball Schools)",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:23",
+          "stance": "question",
+          "targeted_at": "Quality of OKC's 2025 Draft Picks",
+          "discussed_by": [
+            "Adil Gazder",
+            "Lewis Hamilton"
+          ],
+          "sentiment": "neutral"
         }
       ]
     },
     {
-      "topic": "Cooper Flag's Performance",
-      "introduced_by": "Adil Gazder",
+      "topic": "Cooper Flag's Performance in Dallas",
+      "introduced_by": "Lewis Hamilton",
       "introduced_at": "00:00:25",
       "sentiment": "negative",
       "subtopics": [
         {
-          "subtopic": "Cooper Flag's Poor Performance in Dallas",
+          "subtopic": "Adil's View on Cooper Flag's Performance",
           "introduced_by": "Adil Gazder",
-          "introduced_at": "00:00:30",
-          "stance": "challenge",
-          "targeted_at": "Cooper Flag's Performance",
-          "discussed_by": [
-            "Adil Gazder"
-          ],
-          "sentiment": "negative"
-        },
-        {
-          "subtopic": "Cooper Flag Playing Well",
-          "introduced_by": "Andre Cole",
           "introduced_at": "00:00:32",
-          "stance": "challenge",
-          "targeted_at": "Cooper Flag's Poor Performance in Dallas",
+          "stance": "support",
+          "targeted_at": "Cooper Flag's Performance in Dallas",
           "discussed_by": [
-            "Andre Cole"
+            "Adil Gazder",
+            "Lewis Hamilton"
           ],
           "sentiment": "positive"
         },
         {
-          "subtopic": "Performance vs. Game Outcomes",
-          "introduced_by": "Andre Cole",
-          "introduced_at": "00:00:35",
-          "stance": "elaboration",
-          "targeted_at": "Cooper Flag Playing Well",
+          "subtopic": "Lewis's Counter-Argument on Cooper Flag's Performance",
+          "introduced_by": "Lewis Hamilton",
+          "introduced_at": "00:00:34",
+          "stance": "challenge",
+          "targeted_at": "Adil's View on Cooper Flag's Performance",
           "discussed_by": [
-            "Andre Cole"
+            "Adil Gazder",
+            "Lewis Hamilton"
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "subtopic": "Cooper Flag's On-Court Plus/Minus Stats",
+          "introduced_by": "Lewis Hamilton",
+          "introduced_at": "00:00:39",
+          "stance": "elaboration",
+          "targeted_at": "Lewis's Counter-Argument on Cooper Flag's Performance",
+          "discussed_by": [
+            "Lewis Hamilton"
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "subtopic": "Cooper Flag's Averaging Points",
+          "introduced_by": "Adil Gazder",
+          "introduced_at": "00:00:45",
+          "stance": "question",
+          "targeted_at": "Lewis's Counter-Argument on Cooper Flag's Performance",
+          "discussed_by": [
+            "Adil Gazder",
+            "Lewis Hamilton"
           ],
           "sentiment": "neutral"
         },
         {
-          "subtopic": "Plus/Minus Stats",
-          "introduced_by": "Adil Gazder",
-          "introduced_at": "00:00:39",
-          "stance": "challenge",
-          "targeted_at": "Performance vs. Game Outcomes",
-          "discussed_by": [
-            "Adil Gazder"
-          ],
-          "sentiment": "negative"
-        },
-        {
-          "subtopic": "Averaging 18 Points",
-          "introduced_by": "Andre Cole",
-          "introduced_at": "00:00:45",
-          "stance": "challenge",
-          "targeted_at": "Plus/Minus Stats",
-          "discussed_by": [
-            "Andre Cole"
-          ],
-          "sentiment": "positive"
-        },
-        {
-          "subtopic": "Averaging 10 Points",
-          "introduced_by": "Adil Gazder",
-          "introduced_at": "00:00:48",
-          "stance": "challenge",
-          "targeted_at": "Averaging 18 Points",
-          "discussed_by": [
-            "Adil Gazder"
-          ],
-          "sentiment": "negative"
-        },
-        {
-          "subtopic": "Source of Information (Propaganda/Mavs Instagram)",
-          "introduced_by": "Adil Gazder",
+          "subtopic": "Source of Cooper Flag Performance Information",
+          "introduced_by": "Lewis Hamilton",
           "introduced_at": "00:00:53",
           "stance": "challenge",
-          "targeted_at": "Averaging 18 Points",
+          "targeted_at": "Cooper Flag's Averaging Points",
           "discussed_by": [
             "Adil Gazder",
-            "Andre Cole"
+            "Lewis Hamilton"
           ],
           "sentiment": "negative"
         }
@@ -192,101 +143,80 @@
   ],
   "relationships": [
     {
-      "from": "Basketball as Favorite Sport",
-      "to": "Favorite Sport",
-      "type": "support",
-      "initiated_by": "Adil Gazder",
+      "from": "Lewis's Favorite Sport (Basketball)",
+      "to": "Favorite Sport & NBA Team",
+      "type": "elaboration",
+      "initiated_by": "Lewis Hamilton",
       "initiated_at": "00:00:04"
     },
     {
-      "from": "Following NBA",
-      "to": "NBA Fandom",
-      "type": "extension",
-      "initiated_by": "Andre Cole",
-      "initiated_at": "00:00:05"
-    },
-    {
-      "from": "OKC as Favorite Team",
-      "to": "NBA Fandom",
-      "type": "extension",
-      "initiated_by": "Andre Cole",
-      "initiated_at": "00:00:08"
-    },
-    {
-      "from": "Quantity of Draft Picks (25)",
-      "to": "OKC Draft Picks",
-      "type": "extension",
-      "initiated_by": "Andre Cole",
-      "initiated_at": "00:00:10"
-    },
-    {
-      "from": "Quality of Draft Picks (Second Rounders)",
-      "to": "Quantity of Draft Picks (25)",
+      "from": "Lewis's Favorite NBA Team (OKC)",
+      "to": "Favorite Sport & NBA Team",
       "type": "elaboration",
-      "initiated_by": "Adil Gazder",
+      "initiated_by": "Lewis Hamilton",
+      "initiated_at": "00:00:09"
+    },
+    {
+      "from": "Quality of OKC's 2025 Draft Picks",
+      "to": "OKC's 2025 NBA Draft Picks",
+      "type": "elaboration",
+      "initiated_by": "Lewis Hamilton",
       "initiated_at": "00:00:14"
     },
     {
-      "from": "Lack of Top Talent from Good Schools",
-      "to": "Quality of Draft Picks (Second Rounders)",
-      "type": "elaboration",
+      "from": "Origin of Draft Picks (Good Basketball Schools)",
+      "to": "Quality of OKC's 2025 Draft Picks",
+      "type": "question",
       "initiated_by": "Adil Gazder",
+      "initiated_at": "00:00:23"
+    },
+    {
+      "from": "Cooper Flag's Performance in Dallas",
+      "to": "Quality of OKC's 2025 Draft Picks",
+      "type": "extension",
+      "initiated_by": "Lewis Hamilton",
       "initiated_at": "00:00:25"
     },
     {
-      "from": "Cooper Flag's Poor Performance in Dallas",
-      "to": "Lack of Top Talent from Good Schools",
-      "type": "elaboration",
-      "initiated_by": "Adil Gazder",
-      "initiated_at": "00:00:30"
-    },
-    {
-      "from": "Cooper Flag Playing Well",
-      "to": "Cooper Flag's Poor Performance in Dallas",
+      "from": "Adil's View on Cooper Flag's Performance",
+      "to": "Cooper Flag's Performance in Dallas",
       "type": "challenge",
-      "initiated_by": "Andre Cole",
+      "initiated_by": "Adil Gazder",
       "initiated_at": "00:00:32"
     },
     {
-      "from": "Performance vs. Game Outcomes",
-      "to": "Cooper Flag Playing Well",
-      "type": "elaboration",
-      "initiated_by": "Andre Cole",
-      "initiated_at": "00:00:35"
+      "from": "Lewis's Counter-Argument on Cooper Flag's Performance",
+      "to": "Adil's View on Cooper Flag's Performance",
+      "type": "challenge",
+      "initiated_by": "Lewis Hamilton",
+      "initiated_at": "00:00:34"
     },
     {
-      "from": "Plus/Minus Stats",
-      "to": "Performance vs. Game Outcomes",
-      "type": "challenge",
-      "initiated_by": "Adil Gazder",
+      "from": "Cooper Flag's On-Court Plus/Minus Stats",
+      "to": "Lewis's Counter-Argument on Cooper Flag's Performance",
+      "type": "elaboration",
+      "initiated_by": "Lewis Hamilton",
       "initiated_at": "00:00:39"
     },
     {
-      "from": "Averaging 18 Points",
-      "to": "Plus/Minus Stats",
+      "from": "Cooper Flag's Averaging Points",
+      "to": "Lewis's Counter-Argument on Cooper Flag's Performance",
       "type": "challenge",
-      "initiated_by": "Andre Cole",
+      "initiated_by": "Adil Gazder",
       "initiated_at": "00:00:45"
     },
     {
-      "from": "Averaging 10 Points",
-      "to": "Averaging 18 Points",
+      "from": "Source of Cooper Flag Performance Information",
+      "to": "Cooper Flag's Averaging Points",
       "type": "challenge",
-      "initiated_by": "Adil Gazder",
-      "initiated_at": "00:00:48"
-    },
-    {
-      "from": "Source of Information (Propaganda/Mavs Instagram)",
-      "to": "Averaging 18 Points",
-      "type": "challenge",
-      "initiated_by": "Adil Gazder",
+      "initiated_by": "Lewis Hamilton",
       "initiated_at": "00:00:53"
     }
   ],
   "metadata": {
     "conversation_length": "00:01:00",
     "source_file": "namedREALTIME_transcript.txt",
-    "generated_on": "2025-11-09T02:18:35.851254",
-    "llm_model": "gemini-2.5-pro"
+    "generated_on": "2025-11-09T09:45:48.148432",
+    "llm_model": "gemini-1.5-pro"
   }
 }

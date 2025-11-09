@@ -1,0 +1,20 @@
+{
+  "input": "namedREALTIME_transcript.txt",
+  "total_unique_speakers": 2,
+  "query_template": "\"{name}\"",
+  "pages": 1,
+  "pause": 1.5,
+  "speakers": [
+    {
+      "name": "Pranshul Bhatnagar",
+      "file": "out_speakers/profiles/Pranshul_Bhatnagar_info.json",
+      "total_results": 10
+    },
+    {
+      "name": "Mobasserul Haque",
+      "file": "out_speakers/profiles/Mobasserul_Haque_info.json",
+      "total_results": 10
+    }
+  ],
+  "generated_at": 1762681884.774217
+}
